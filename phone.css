@@ -1,0 +1,72 @@
+/* Navigation */
+#navbar{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#navbar ul{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+#navbar ul li{
+    font-size: 0.7rem;
+}
+
+/* Home */
+#Home{
+    height: 400px;
+    padding: 37px 25px;
+}
+#Home p{
+    font-size: 13px;
+}
+
+#Home h1{
+    font-size: 2rem;
+}
+#Home::before{
+    height: 460px;
+}
+
+/* Order */
+/* .order{
+    overflow: auto;
+} */
+
+/* Brands */
+#brand{
+    overflow: hidden;
+}
+/* Services */
+#services{
+    flex-direction: column;
+}
+#services .box img {
+    height: 124px;
+}
+/* Clients */
+#client{
+    overflow: hidden;
+}
+.client-item {
+    padding: 0px 21px;
+}
+#client img {
+    height: 37px;
+}
+#client-section {
+    height: 180px;
+}
+/* Contact us */
+#contact-box {
+    padding: 55px;
+}
+/* Utility */
+.h-primary{
+    font-size: 20px;
+}
+
+.btn{
+    font-size: 0.7rem;
+}

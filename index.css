@@ -1,0 +1,275 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar styling */
+#navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    font-family: 'Anton', sans-serif;
+}
+
+#navbar::before{
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    opacity: 40%;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 5px;
+    margin: 3px 11px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.bglight{
+    background-color: gray;
+    opacity: 80%;
+}
+
+/* Logo styling in navbar */
+#logo{
+    margin: 12px 12px;
+}
+
+#logo img{
+
+    height: 47px;
+    margin: 2px 3px;
+}
+
+/* Home */
+#Home{
+    display: flex;
+    flex-direction: column;
+    height: 411px;
+    padding: 70px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home p a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+/* #Home a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+} */
+
+#Home::before{
+    content: "";
+    height: 550px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: url(imgs/bg/bg2.jpg) no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.35;
+}
+
+#Home h1{
+    padding: 12px;
+    font-size: 3rem;
+}
+#Home p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Services */
+#services{
+    display: flex;
+    margin: 12px;
+    padding: 3px 6px;
+}
+
+#services-container{
+    padding-top: 75px;
+}
+#services .box{
+    margin: 3px 6px;
+    padding: 20px 25px;
+    border-radius: 13px;
+    border: 2px solid black;
+    background-color: rgb(233, 231, 231);
+}
+
+#services .box img{
+    display: block;
+    margin: auto;
+    height: 160px;
+}
+/* Products */
+#order-section{
+    padding: 3px;
+    padding-top: 53px;
+    margin: 3px;
+}
+.order{
+    display: flex;
+    margin: 12px;
+    overflow: auto;
+    padding: 3px 6px;
+}
+
+.order .box{
+    margin: 3px 6px;
+    padding: 20px 25px;
+    border-radius: 13px;
+}
+
+.order a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+.order img{
+    display: block;
+    margin: auto;
+    height: 160px;
+}
+
+/* brands */
+#brand{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#brand img{
+    height: 160px;
+}
+
+.brand-item{
+    padding:0px 50px;
+}
+
+#brand-section{
+    height: 375px;
+    padding-top: 120px;
+}
+
+#brand-section::before{
+    content: "";
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.45;
+}
+
+/* Contact */
+#contact{
+     position: relative;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('imgs/bg/contact\ bg.jpg') no-repeat center center/cover;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+}
+#contact-box{
+    width: 40%;
+    padding: 34px;
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#contact input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1rem;
+}
+
+/* utility */
+.btn{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    border-radius:13px;
+    padding: 5px 15px;
+    margin: 17px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}    
+
+.h-primary{
+    /* color: white; */
+    font-size: 2.5rem;
+    margin: 17px;
+    padding: 19px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.h-secondry{
+        font-size: 1.5rem;
+        padding: 12px;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+
+
+.center{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+}
